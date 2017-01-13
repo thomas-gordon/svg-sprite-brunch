@@ -1,0 +1,36 @@
+{
+  "name": "svgo-sprite-brunch",
+  "version": "0.0.1",
+  "description": "Creates a symbol based svg sprite for use based on a folder of svgs.",
+  "author": "Tom Gordon (http://tomgordon.me/)",
+  "homepage": "https://github.com/thomas-gordon/svg-sprite-brunch",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunch/thomas-gordon/svg-sprite-.git"
+  },
+  "keywords": [
+    "brunch",
+    "brunch-plugin",
+    "brunch-compiler",
+    "js",
+    "svgo",
+    "sprite",
+    "icons",
+    "icon",
+    "optimize"
+  ],
+  "dependencies": {
+    "svgo": "^0.7.1"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "eslint": "^3.12.2",
+    "eslint-config-brunch": "brunch/eslint-config-brunch",
+    "svgstore": "^2.0.2"
+  },
+  "eslintConfig": {
+    "extends": "brunch"
+  }
+}
